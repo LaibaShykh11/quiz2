@@ -1,0 +1,43 @@
+/* tailwind.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* You can add custom styles here if needed */
+
+.text-navbar {
+  color: white !important;
+}
+.dropdown-section {
+  color: white !important;
+}
+.text-heading {
+  font-size: 4rem;
+  padding: 10px;
+  margin-left: 1rem;
+  margin-top: 10px;
+}
+.text-subheading {
+  font-size: 2rem;
+  padding: 10px;
+  margin-left: 1rem;
+  margin-top: 10px;
+}
+.projects-section {
+  background-color: cadetblue;
+
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  max-width: 100%; /* Make the image responsive within its container */
+  height: auto; /* Maintain the aspect ratio of the image */
+  display: block; /* Remove default image spacing */
+  margin: 0 auto; /* Center the image horizontally */
+  max-height: 400px; /* Set a maximum height for the image if needed */
+}
